@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/garrettmac/react-native-animated-icons/issues"
   },
-  "homepage": "https://github.com/garrettmac/react-native-animated-icons#readme"
+  "homepage": "https://github.com/garrettmac/react-native-animated-icons#readme",
+  "dependencies": {
+    "react-native-vector-icons": "^4.3.0"
+  }
 }
