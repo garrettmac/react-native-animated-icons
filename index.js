@@ -76,7 +76,6 @@ const styles = StyleSheet.create({
 
 
 Icon.defaultProps={
-  refilledText:""
   value:0,
   fontSize:40,
   activeName:"heart",

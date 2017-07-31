@@ -1,7 +1,7 @@
 {
   "name": "react-native-animated-icons",
   "version": "1.0.0",
-  "description": "A light wrapper around 'react-native-vector-icons' to animateIcons",
+  "description": "All your vector icon needs in one place",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
