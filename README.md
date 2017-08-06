@@ -5,6 +5,21 @@ I Need to clean up this readme but it works, give it a try!
 All your vector icon needs in one place
 A light wrapper around `react-native-vector-icons`
 
+### Getting Started
+
+ Import in to  your project
+```jsx
+import Icon from "react-native-animated-icons"
+```
+### Basic Usage
+this will not trigger animation. for that keep reading.
+```jsx
+<Icon
+   name="ios-star"
+   fontFamily="Ionicons"
+   size={30}/>
+```
+
 ### Animation
 This dummy component monitors changes in props
 How to trigger animation
@@ -45,15 +60,15 @@ colorOutputRange={[
 
 |Parameters|Default|Description|
 |------------|----------------------------|------------------------------------|
-|animateAllActive|   |
-|name|  |
-|isActive|  |
+|animateAllActive|   ||
+|name|  | |
+|isActive|  | |
 	| fontSize|  `40` |fontSize|
 	| color|  `rgba(0,0,0,0.5)` |color|
 	| iconFamily|  `MaterialCommunityIcons` |iconFamily. optoins:`Entypo`, `EvilIcons`, `FontAwesome`, `Foundation`, `Ionicons`, `MaterialIcons`, `MaterialCommunityIcons`, `Octicons`, `Zocial`, `SimpleLineIcons` |
   |animation| `{toValue: 1,duration: 500}`|animation|
 	|scaleInputRange|`[0, 0.6, 1]`|    |
-  |scaleOutputRange|`[1, 1.5, 1]`| |
+  |scaleOutputRange|`[1, 1.5, 1]`| ||
 
 
 ### Example
