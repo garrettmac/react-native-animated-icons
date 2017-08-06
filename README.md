@@ -1,6 +1,27 @@
-# react-native-animated-icons
+# React Native Animated Icons
+<!-- <p align="center">
+  <img alt="react-native-animated-icons" src="https://cdn.rawgit.com/garrettmac/images/a8e4b847/projects/react-native-animated-icons/react-native-animated-icons.jpg" width="308">
 
-I Need to clean up this readme but it works, give it a try!
+</p> -->
+
+<p align="center">
+  The simplest icon component for React Native.
+</p>
+
+<p align="center">
+  <a href="http://standardjs.com/"><img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/react-native-animated-icons"><img alt="npm version" src="http://img.shields.io/npm/v/react-native-animated-icons.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/react-native-animated-icons"><img alt="npm version" src="http://img.shields.io/npm/dm/react-native-animated-icons.svg?style=flat-square"></a>
+  <a href="https://github.com/garrettmac/react-native-animated-icons/pulls?q=is%3Apr+is%3Aclosed"><img alt="PR Stats" src="https://img.shields.io/issuestats/i/github/garrettmac/react-native-animated-icons.svg?style=flat-square"></a>
+  <a href="https://gitter.im/garrettmac/react-native-animated-icons?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><img alt="Join the chat" src="https://badges.gitter.im/garrettmac/react-native-animated-icons.svg"></a>
+</p>
+
+
+
+
+
+
+(I Need to do some clean up on this readme but it works, give it a try!)
 
 All your vector icon needs in one place
 A light wrapper around `react-native-vector-icons`
