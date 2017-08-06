@@ -10,7 +10,7 @@ import {
 	Dimensions,
 	Animated
 } from 'react-native';
-import _ from 'lodash';
+
 const {width, height} = Dimensions.get('window');
 
 // import { Page } from 'animationDemo/src/components';

@@ -60,22 +60,26 @@ colorOutputRange={[
 
 |Parameters|Default|Description|
 |------------|----------------------------|------------------------------------|
-|animateAllActive|   ||
+|animateAllActive|   | |
 |name|  | |
 |isActive|  | |
-	| fontSize|  `40` |fontSize|
-	| color|  `rgba(0,0,0,0.5)` |color|
-	| iconFamily|  `MaterialCommunityIcons` |iconFamily. optoins:`Entypo`, `EvilIcons`, `FontAwesome`, `Foundation`, `Ionicons`, `MaterialIcons`, `MaterialCommunityIcons`, `Octicons`, `Zocial`, `SimpleLineIcons` |
-  |animation| `{toValue: 1,duration: 500}`|animation|
-	|scaleInputRange|`[0, 0.6, 1]`|    |
-  |scaleOutputRange|`[1, 1.5, 1]`| ||
+| fontSize|  `40` |fontSize|
+| color|  `rgba(0,0,0,0.5)` |color|
+| iconFamily|  `MaterialCommunityIcons` |iconFamily. optoins:`Entypo`, `EvilIcons`, `FontAwesome`, `Foundation`, `Ionicons`, `MaterialIcons`, `MaterialCommunityIcons`, `Octicons`, `Zocial`, `SimpleLineIcons` |
+|animation| `{toValue: 1,duration: 500}`|animation|
+|scaleInputRange|`[0, 0.6, 1]`|    |
+|scaleOutputRange|`[1, 1.5, 1]`| ||
 
 
 ### Example
 
 ```jsx
 
-
+this.state = {
+  hearts:[{isActive:false,"id":1},{isActive:false,"id":2},{isActive:false,"id":3},{isActive:false,"id":4}],
+  tweets:[{isActive:false,"id":1},{isActive:false,"id":2},{isActive:false,"id":3},{isActive:false,"id":4}]
+};
+....
 onPressHearts = (item) => {
   // console.log(" onPress:item ",item);
   if(!item)return
