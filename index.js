@@ -65,6 +65,11 @@ export default class Icon extends Component {
  	    }else{
 				this.shouldUpdate=false
 			}
+		
+		if(this.props.alwaysAnimate){
+			this.shouldUpdate=true
+			this.AnimatedValue.setValue(0);
+		}
 	}
 
 
