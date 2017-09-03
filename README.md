@@ -37,7 +37,7 @@ this will not trigger animation. for that keep reading.
 ```jsx
 <Icon
    name="ios-star"
-   fontFamily="Ionicons"
+   iconFamily="Ionicons"
    size={30}/>
 ```
 
