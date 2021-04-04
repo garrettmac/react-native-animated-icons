@@ -38,7 +38,7 @@ this will not trigger animation. for that keep reading.
 <Icon
    name="ios-star"
    iconFamily="Ionicons"
-   size={30}/>
+   fontSize={30}/>
 ```
 
 ### Animation
